@@ -56,3 +56,16 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+```
+
+## Database
+
+```bash
+# unit database
+$ npm run pretypeorm
+
+#create migration 
+$ npm run typeorm:migration:create
+
+#run migration
+$ npm run typeorm:migration:run
